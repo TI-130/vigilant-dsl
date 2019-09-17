@@ -1,0 +1,10 @@
+digraph G {
+    Fido[shape=square]
+    Biff[shape=square]
+    Cage[shape=square]
+    John[shape=circle]
+    Josh[shape=circle]
+    Biff->Cage
+    Cage->Fido
+    Fido->Biff
+}
